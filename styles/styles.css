@@ -101,3 +101,27 @@ strong {
     background-size: 100% 95%;
 }
 
+.rates {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Arial;
+}
+
+.rates h1 {
+    color: #18EA19;
+    text-align: center;
+    font-size: 60px;
+}
+
+.rates p {
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rates div {
+    width: 20%;
+    
+}
