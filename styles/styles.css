@@ -8,3 +8,10 @@
     width: 7%;
     height: 7%;
 }
+
+.navigation {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    width: 80%;
+}
