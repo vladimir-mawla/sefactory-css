@@ -22,3 +22,19 @@
     padding-bottom: 40px;
     padding-top: 30px;
 }
+a {
+    color: white;
+    text-align: center;
+    height: 25px;
+}
+
+button {
+    color: white;
+    height: 50px;
+    width: 120px;
+    background-color: #00DD00;
+    border-radius: 5px;
+    padding: 3px 20px;
+    font-size: .9rem;
+    font-weight: bolder;
+}
