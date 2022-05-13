@@ -2,11 +2,13 @@
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .avatar {
-    width: 7%;
-    height: 7%;
+    width: 85px;
+    height: 85px;
 }
 
 .navigation {
