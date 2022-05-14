@@ -405,3 +405,9 @@ hr {
     display: flex;
     justify-content: space-between;
 }
+
+.green {
+    color:#18EA19;
+    text-decoration: underline;
+    text-decoration-color: #18EA19;
+}
