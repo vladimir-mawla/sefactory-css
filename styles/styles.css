@@ -209,8 +209,8 @@ strong {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 2em;
     padding: 5% 10%;
+    padding-top: 0;
 }
 
 .fivth-background div {
@@ -221,9 +221,23 @@ strong {
 }
 
 .fivth-background img {
-    width: 90%;
+    width: 107%;
+}
+.fivth-background h4 {
+    margin-bottom: 0;
 }
 
-.fivth-background-text {
-    padding: 0 10%;
+.fivth-background-first-text {
+    padding: 0 15%;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.fivth-background-second-text {
+    padding: 0 5%; 
+    font-size: 1.4em;
+    padding: 0 15%;
+    text-align: center;
 }
