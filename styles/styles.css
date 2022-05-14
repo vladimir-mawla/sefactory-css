@@ -166,7 +166,7 @@ strong {
 
 .third-background {
     background-color: #18EA19;
-    height: 620px;
+    height: 100%;
 }
 
 .third-background-text {
@@ -186,11 +186,12 @@ strong {
 }
 
 .programs img {
-    height: 400px;
-    width: 350px;
+    height: 100%;
+    width: 280%;
 }
 .programs div {
     width: 10%;
-    padding: 150px;
-    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 20%;
+    padding-bottom: 6%;
 }
