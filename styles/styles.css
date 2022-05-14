@@ -341,3 +341,36 @@ strong {
     right: 0;
 
  }
+
+ .ninth-section {
+    background-color: rgb(229, 229, 229);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.ninth-text {
+    padding: 0 5%; 
+    font-size: 1.4em;
+    padding: 0 15%;
+    text-align: center;
+}
+.ninth-button {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.ninth-section button {
+    color: white;
+    height: 50px;
+    width: 120px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 3px 20px;
+    font-size: .9rem;
+    font-weight: bolder;
+}
