@@ -100,7 +100,7 @@ strong {
 }
 
 
-.second-background {
+.second-section {
     width: 100%;
     height: 100%;
     background: white;
@@ -171,12 +171,12 @@ strong {
 }
 
 
-.third-background {
+.third-section {
     background-color: #18EA19;
     height: 100%;
 }
 
-.third-background-text {
+.third-section-text {
     color: white;
     font-size: 2em;
     display: flex;
@@ -205,7 +205,7 @@ strong {
 }
 
 
-.fivth-background {
+.fivth-section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -213,21 +213,21 @@ strong {
     padding-top: 0;
 }
 
-.fivth-background div {
+.fivth-section div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.fivth-background img {
+.fivth-section img {
     width: 107%;
 }
-.fivth-background h4 {
+.fivth-section h4 {
     margin-bottom: 0;
 }
 
-.fivth-background-first-text {
+.fivth-section-first-text {
     padding: 0 15%;
     text-align: center;
     font-size: 2em;
@@ -235,7 +235,7 @@ strong {
     margin-top: 0;
 }
 
-.fivth-background-second-text {
+.fivth-section-second-text {
     padding: 0 5%; 
     font-size: 1.4em;
     padding: 0 15%;
