@@ -315,3 +315,29 @@ strong {
     margin-left: 25%;
     width: 100%;
 }
+
+.strategic-partners {
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    
+}
+.strategic-partners-logos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    padding-left: 5%;
+ }
+
+.strategic-partners-logos div {
+    width: 20%;
+    
+    text-align: center;
+    line-height: 75px;
+}
+
+ .strategic-partners-logos img {
+    width: 140%;
+    right: 0;
+
+ }
