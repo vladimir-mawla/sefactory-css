@@ -131,3 +131,34 @@ strong {
     width: 330px;
     
 }
+
+.first-artwork {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-right: 120px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.artboard {
+    width: 50%;
+    align-items: center;
+}
+
+.first-artwork img {
+    height: 80%;
+    width: 100%;
+}
+
+.artboard-text {
+    width: 500px;
+    align-items: center;
+    margin-left: 0;
+    
+}
