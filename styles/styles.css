@@ -252,3 +252,39 @@ strong {
 .sixth-section img {
     width: 60%;
 }
+
+.seventh-section {
+    background-color: rgb(229, 229, 229);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seventh-section-text {
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    
+}
+
+.seventh-section img {
+    width: 100%;
+    padding: 0 5%;
+}
+
+.seventh-section-assets {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    padding-left: 9%;
+    
+}
+
+.seventh-section-assets div {
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
