@@ -241,3 +241,14 @@ strong {
     padding: 0 15%;
     text-align: center;
 }
+
+.sixth-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.sixth-section img {
+    width: 60%;
+}
