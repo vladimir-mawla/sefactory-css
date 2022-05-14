@@ -203,3 +203,27 @@ strong {
     padding-right: 20%;
     padding-bottom: 6%;
 }
+
+
+.fivth-background {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 2em;
+    padding: 5% 10%;
+}
+
+.fivth-background div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fivth-background img {
+    width: 90%;
+}
+
+.fivth-background-text {
+    padding: 0 10%;
+}
