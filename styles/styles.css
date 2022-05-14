@@ -6,7 +6,7 @@ body {
     height: 820px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/presentation.JPG);
     background-repeat: no-repeat;
-    background-size: 100% 95%;
+    background-size: 100% 100%;
 }
 
 .navbar {
