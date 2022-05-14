@@ -288,3 +288,30 @@ strong {
     text-align: center;
     line-height: 75px;
 }
+
+.eighth-section {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.funding-partners {
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    
+}
+
+.funding-partners-logo {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.funding-partners-logo img {
+    margin-left: 25%;
+    width: 100%;
+}
