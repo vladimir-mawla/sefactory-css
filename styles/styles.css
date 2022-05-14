@@ -374,3 +374,12 @@ strong {
     font-size: 1.3rem;
     font-weight: 100;
 }
+hr {
+    border: 0;
+    clear: both;
+    display: flex;
+    width: 86%;
+    background-color: #000000;
+    height: 1px;
+    margin-top: 30px;
+}
