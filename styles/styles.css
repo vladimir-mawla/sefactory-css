@@ -418,3 +418,93 @@ hr {
     text-decoration: underline;
     text-decoration-color: #18EA19;
 }
+
+@media screen and (max-width: 765px){
+    
+    .front h1 {
+        width:300px;
+    }
+    .artwork {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 100%;
+        justify-content: space-around;
+        padding-left: 80px;
+        padding-top: 50px;
+        padding-right: 120px;
+        padding-bottom: 30px;
+        font-size: 25px;
+    }
+    .artwork h1 {
+        width: 300px;
+    }
+    .artwork p {
+        width: 200px;
+    }
+
+    .third-section-text {
+        color: white;
+        font-size: 1.5em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .programs {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .programs img {
+        height: 100%;
+        width: 500%;
+    }
+    
+    .programs div {
+        width: 10%;
+        padding-left: 10px;
+        padding-right: 20%;
+        padding-bottom: 6%;
+    }
+
+
+    
+    
+    .seventh-section-text {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+        
+    }
+    
+    .seventh-section img {
+        width: 250%;
+        padding: 0 5%;
+    }
+    
+    .seventh-section-assets {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-basis: 25%;
+        padding-left: 9%;
+        padding-left: 30%;
+        
+    }
+    
+    .seventh-section-assets div {
+        width: 20%;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+    }
+}
+
+
+
