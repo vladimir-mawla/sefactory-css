@@ -1,5 +1,5 @@
 * {
-    font-family: A;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     margin: 0px;
@@ -34,11 +34,11 @@ body {
 .navigation {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 150%;
     padding-left: 0;
     padding-bottom: 40px;
-    padding-top: 30px;
+    padding-top: 0;
     align-items: center;
 }
 
@@ -100,10 +100,13 @@ strong {
 
 .nav-anchor {
     width: 150%;
-    
     padding-right: 5%;
+    padding-top: 25px;
     display: flex;
     justify-content: flex-end;
+}
+.nav-anchor div {
+    padding: 0 2%;
 }
 
 
@@ -419,6 +422,59 @@ hr {
     text-decoration-color: #18EA19;
 }
 
+#none {
+    font-size: 10px;
+}
+
+@media screen and (max-width: 1030px){
+    .nav-anchor {
+
+        width: 150%;
+        padding-right: 5%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .nav-anchor div {
+        padding: 0 2%;
+    }
+}
+
+
+@media screen and (max-width: 890px){
+    .nav-anchor {
+        width: 100%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 150%;
+        padding-left: 0;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        align-items: center;
+    }
+    .nav-button {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .navigation {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width: 765px){
     
     .front h1 {
@@ -505,6 +561,5 @@ hr {
         line-height: 75px;
     }
 }
-
 
 
