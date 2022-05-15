@@ -7,7 +7,7 @@ body {
 
 .front {
     width: 100%;
-    height: 100%;
+    height: auto;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/presentation.JPG);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -45,7 +45,7 @@ body {
 a {
     color: white;
     text-align: center;
-    height: 25px;
+    height: 2%;
     width: 10%;
 }
 
@@ -119,7 +119,7 @@ strong {
 
 .rates {
     background-color: white;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -166,7 +166,7 @@ strong {
 }
 
 .artwork img {
-    height: 80%;
+    height: auto;
     width: 100%;
 }
 
